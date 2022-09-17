@@ -123,4 +123,11 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  ![image](https://user-images.githubusercontent.com/52551615/190872493-041f1e72-519c-47b8-a91d-e780bfe32811.png)
 
+ ![image](https://user-images.githubusercontent.com/52551615/190872510-75a10534-41d7-4b5c-9d4d-eda2a70270f4.png)
+
+ Now you can copy the python script send-message_remote_host.py to your MQSender server and put your MQBroker Server IP in my case is 78.111.85.11.
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190872579-90262232-10d0-4bbc-95d1-f78ece63adc8.png)
+
+ 
  
