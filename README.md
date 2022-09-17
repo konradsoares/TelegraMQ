@@ -90,7 +90,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
 ![image](https://user-images.githubusercontent.com/52551615/190865190-9146f990-8ecb-4578-b659-f5f641b9623c.png)
 <br>
- root@MQBroker:~# sh rabbitmq-install.sh
+root@MQBroker:~# sh rabbitmq-install.sh
 <br>
- root@MQBroker:~# sudo systemctl status rabbitmq-server
+After the script finishes, our RabbitMQ Server is already installed and running.
+root@MQBroker:~# sudo systemctl status rabbitmq-server
  
