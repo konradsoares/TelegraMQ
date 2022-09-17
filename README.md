@@ -96,3 +96,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
 
 ![image](https://user-images.githubusercontent.com/52551615/190865777-1703056a-996e-4de7-9d61-5c233d74816d.png)
  
+ 
+ If you run receive-message.py now, you gonna start our consumer, and will connect to our queue waiting for some message.
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190865889-a548c876-7479-42f1-b859-4bd1ef0ddf3d.png)
+
