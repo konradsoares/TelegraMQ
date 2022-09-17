@@ -20,7 +20,9 @@ A message broker acts as a middleman for the microservices, receiving messages f
 There are a couple of different message brokers to choose from. When choosing between brokers, you should try to nail down your requirements. RabbitMQ and Apache Kafka are two open-source message brokers.
 You can read about the main difference between them in this comparison: "When to use RabbitMQ or Apache Kafka" https://www.cloudamqp.com/blog/when-to-use-rabbitmq-or-apache-kafka.html. 
 
-RabbitMQ enables asynchronous processing, meaning that it allows you to put a message in a queue without processing it immediately. RabbitMQ is therefore ideal for long-running tasks or blocking tasks, allowing web servers to respond quickly to requests instead of being forced to perform computationally intensive tasks on the spot. RabbitMQ simply stores messages and passes them to consumers when ready.
+RabbitMQ enables asynchronous processing, meaning that it allows you to put a message in a queue without processing it immediately. 
+
+RabbitMQ is therefore ideal for long-running tasks or blocking tasks, allowing web servers to respond quickly to requests instead of being forced to perform computationally intensive tasks on the spot. RabbitMQ simply stores messages and passes them to consumers when ready.
 
 <li>RabbitMQ is a reliable open source message broker. It has been on the market since 2007 and became a part of Pivotal software 2013. It's continuously updated and improved upon. RabbitMQ has a strong community and highly active core team that produce additional features, improvements and handy plugins. The license of RabbitMQ has never changed (Nov 2019).
 
