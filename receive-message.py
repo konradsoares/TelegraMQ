@@ -18,6 +18,7 @@ def callback(ch, method, properties, body):
     print(" [x] Received %r" % body)
     ## If you get the characther b (byte) in your message you can use the line bellow to convert repr to string.
     ##print(" [x] Received " + body.decode('utf-8'))
+    ##Uncoment the line bellow when your Telegram Bot has been created and change <YOUR TELEGRAM BOT TOKEN> with your TOKEN and <your_telegram_chatID> with your personal ID on Telegram.
     #requests.post('https://api.telegram.org/bot<YOUR TELEGRAM BOT TOKEN>/sendMessage?chat_id=<your_telegram_chatID>&text='+body.decode('utf-8'))
 channel.basic_consume(callback,
                       queue='hello',
