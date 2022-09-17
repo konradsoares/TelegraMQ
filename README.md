@@ -82,9 +82,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  <br>![image](https://user-images.githubusercontent.com/52551615/190864431-7eb35e95-47f1-4a49-9dd8-f1eaa16cf945.png)
 <p>Now let's search for the latest python package then install it.
  <p>root@MQBroker:~# sudo apt list |grep python3.10</p>
- <br>
- <p>sudo apt install -y python3.10</p>
- <br>![image](https://user-images.githubusercontent.com/52551615/190864554-160bb638-c8fc-4b39-bbcc-1137800530e0.png)
+ <p>root@MQBroker:~# sudo apt install -y python3.10</p>
+ ![image](https://user-images.githubusercontent.com/52551615/190864554-160bb638-c8fc-4b39-bbcc-1137800530e0.png)
 
 
  
