@@ -105,6 +105,17 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  ![image](https://user-images.githubusercontent.com/52551615/190866585-c4f8e7ff-dc30-459c-b2bc-77d05132abeb.png)
  
+ You can also stop the receiver application and send some messages to the broker.
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190867699-80b048c2-d65a-4b71-8b99-0718a164df1f.png)
+
+ Here we've sent 3 messages with the receiver down.
+ 
+ Now if you run again the receiver, it will print all the 3 messages stored in the queue.
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190867804-f1edb44a-271e-49d8-93e3-1b94f93a9076.png)
+
+ 
  Ok, we have our Broker working locally, but doesn't make sense right? We want it receiving messages from one application in another server and for this, we need to create the rabbitmq.conf setting some permission for our user guest connecting the broker remotely.
  
  Let's move to the next step installing Python and Pika in the server MQSender.
