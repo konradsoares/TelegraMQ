@@ -151,4 +151,21 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  ![image](https://user-images.githubusercontent.com/52551615/190873218-7c8a0d37-56b7-47fd-800f-7700a77f853a.png)
 
+ Our RabbitMQ is working queueing the messages and being consumed by our application.
+ 
+ The advantage here, is that doesn't matter if you have the sender application in Python, Php, Java, etc and the consumer in different language from the sender, as long as they are connected to the message broker, they will comunicate with each other sending and receiving the message.
+ 
+ There's a lot of use for Message Queue, like avoiding transactions being made in the Database, saving processing power and storage in your Database Server.
+ With some configurations the Message Broker will manage all the message life cycle, saving the message to be consumed another time following your TTL configuration, or just deleting. That's your call.
+ 
+ Now, what about receiving our message in Telegram?
+ You can also use Telegram Api Webhook, then users can send one command in Telegram Bot, Telegram Webhook send the message to Message Queue, then the consumer application receive the message. Remembering, when we say message, can be commands, files, etc. The sky is the limit.
+ 
+** Let's just use a Telegram Bot receiving our message from our Broker/Consumer.
+** 
+ Create your Telegram Bot and get the TOKEN and your personal chatid. (Sorry, I'll not explain these steps here)
+ 
+ 
+ 
+ 
  
