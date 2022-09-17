@@ -137,4 +137,9 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  ![image](https://user-images.githubusercontent.com/52551615/190872872-0a9fbe76-7fff-4572-92a0-5628cc7102ae.png)
 
+ You can upload the rabbitmq.conf here to your MQBroker server in the directory /etc/rabbitmq
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190872983-51310496-fabf-4cc4-b93c-0859faaac268.png)
+
+ 
  
