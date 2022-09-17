@@ -121,3 +121,6 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  Let's move to the next step installing Python and Pika in the server MQSender.
  You can repeat the same steps we followed for the Broker, we just don't need to install RabbitMQ in the MQSender.
  
+ ![image](https://user-images.githubusercontent.com/52551615/190872493-041f1e72-519c-47b8-a91d-e780bfe32811.png)
+
+ 
