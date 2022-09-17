@@ -89,5 +89,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  Let's install RabbitMQ now. Just execute the bash script rabbitmq-install.sh.
  
 ![image](https://user-images.githubusercontent.com/52551615/190865190-9146f990-8ecb-4578-b659-f5f641b9623c.png)
-
+<br>
+ root@MQBroker:~# sh rabbitmq-install.sh
+<br>
+ root@MQBroker:~# sudo systemctl status rabbitmq-server
  
