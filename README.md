@@ -80,7 +80,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  root@MQBroker:~# sudo apt update && sudo apt upgrade
  <br>![image](https://user-images.githubusercontent.com/52551615/190864431-7eb35e95-47f1-4a49-9dd8-f1eaa16cf945.png)
-<p>Our installation already have python3.8 So let's install python-pika.
+ <p>Our installation already have python3.8 So let's install python-pika.</p>
  ![image](https://user-images.githubusercontent.com/52551615/190864821-4541701a-1c10-4797-9d3f-1ea6117a9460.png)
 
 
