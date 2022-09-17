@@ -86,6 +86,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
 <br>
  Upload rabbitmq.conf, rabitmq-install.sh, receive-message.py and send-message_localhost.py to your server.
  <br>
+ Let's install RabbitMQ now. Just execute the bash script rabitmq-install.sh.
+ 
  ![image](https://user-images.githubusercontent.com/52551615/190865008-6103810a-725b-4c07-8312-a3f33c5fb981.png)
 
  
