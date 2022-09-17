@@ -16,7 +16,7 @@ channel.queue_declare(queue='hello')
 
 def callback(ch, method, properties, body):
     print(" [x] Received %r" % body)
-    requests.post('https://api.telegram.org/bot5724697155:AAE8SMp_Nfy9A8e5sp1fNp4rPWdx3Aw9gWA/sendMessage?chat_id=1278083505&text='+body)
+    requests.post('https://api.telegram.org/bot<YOUR TELEGRAM BOT TOKEN>/sendMessage?chat_id=<your_telegram_chatID>&text='+body)
 channel.basic_consume(callback,
                       queue='hello',
                       no_ack=True)
