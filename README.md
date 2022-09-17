@@ -104,3 +104,5 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  You can test if is working, opening another ssh session then running send-message_localhost.py.
  
  ![image](https://user-images.githubusercontent.com/52551615/190866585-c4f8e7ff-dc30-459c-b2bc-77d05132abeb.png)
+ 
+ Ok, we have our Broker working locally, but doesn't make sense right? We want it receiving messages from one application in another server and for this, we need to create the rabbitmq.conf setting some permission for our user guest.
