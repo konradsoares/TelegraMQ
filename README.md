@@ -7,9 +7,9 @@ The use of Message Queues provides a way for parts of the application to push me
 
 <b>The basic flow in a Message Queue is:</b>
 
-<b>Producer</b> - Generates and send the message to the Broker
-<b>Broker</b> (Message Queue) - Receive and store the message, waiting to being consumed.
-<b>Consumers</b> - One or more applications querying messages in one or more queues stored in the broker
+<p><b>Producer</b> - Generates and send the message to the Broker
+<p><b>Broker</b> (Message Queue) - Receive and store the message, waiting to being consumed.
+<p><b>Consumers</b> - One or more applications querying messages in one or more queues stored in the broker
 
 ![image](https://user-images.githubusercontent.com/52551615/190854332-ef00b071-8cc3-4f12-b1c9-c55bdefc4201.png)
 
