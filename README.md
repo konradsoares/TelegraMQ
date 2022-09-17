@@ -129,5 +129,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  ![image](https://user-images.githubusercontent.com/52551615/190872579-90262232-10d0-4bbc-95d1-f78ece63adc8.png)
 
- 
+ If you run the script now you'll get an ERROR.
+ ![image](https://user-images.githubusercontent.com/52551615/190872626-b6ddef0a-7b30-4d89-9385-c2b9041946e7.png)
+
  
