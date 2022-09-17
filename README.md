@@ -83,5 +83,9 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  <br>
  Our installation already have python3.8 So let's install python-pika.
  <br>![image](https://user-images.githubusercontent.com/52551615/190864865-adc66f71-07ce-47c6-89cd-81cf92d0cb8c.png)
+<br>
+ Upload rabbitmq.conf, rabitmq-install.sh, receive-message.py and send-message_localhost.py to your server.
+ <br>
+ ![image](https://user-images.githubusercontent.com/52551615/190865008-6103810a-725b-4c07-8312-a3f33c5fb981.png)
 
-
+ 
