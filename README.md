@@ -162,6 +162,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  You can also use Telegram Api Webhook, then users can send one command in Telegram Bot, Telegram Webhook send the message to Message Queue, then the consumer application receive the message. Remembering, when we say message, can be commands, files, etc. The sky is the limit.
  
  <b>Let's just use a Telegram Bot receiving our message from our Broker/Consumer.</b> 
+ 
  Create your Telegram Bot and get the TOKEN and your personal chatid. (Sorry, I'll not explain these steps here)
  
  
