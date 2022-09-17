@@ -1,5 +1,5 @@
 # TelegraMQ
-Simple RabbitMQ and Telegram Integration 
+Simple RabbitMQ and Telegram Integration with Python
 
 <h1><b>What is Message Queueing?</b></h1>
 
