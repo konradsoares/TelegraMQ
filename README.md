@@ -100,4 +100,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  If you run receive-message.py now, you gonna start our consumer, and will connect to our queue waiting for some message.
  
  ![image](https://user-images.githubusercontent.com/52551615/190865889-a548c876-7479-42f1-b859-4bd1ef0ddf3d.png)
-
+ 
+ You can test if is working, opening another ssh session then running send-message_localhost.py.
+ 
+ ![image](https://user-images.githubusercontent.com/52551615/190866585-c4f8e7ff-dc30-459c-b2bc-77d05132abeb.png)
