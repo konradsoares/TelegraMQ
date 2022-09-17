@@ -63,3 +63,12 @@ Message queues make it possible to scale precisely where you need to. When workl
 Message queues remove dependencies between components and significantly simplify the coding of decoupled applications. Software components aren’t weighed down with communications code and can instead be designed to perform a discrete business function.
 
 Message queues are an elegantly simple way to decouple distributed systems, whether you're using monolithic applications, microservices or serverless architectures.
+
+ 
+Now that you know more about Message Queues let's do a simple example using Python, Python Pika, RabbitMQ and Telegram.
+ 
+In this POC we gonna follow the steps bellow:
+ 
+- Create 2 Ubuntu 20.4 VPcs
+- Install Python and Pika in the Server 1 (Sender)
+- Install Python, Pika and RabbitMQ in the Server 2 (We gonna use this server as a Broker and Consumer as well, sending our message to a Telegram Bot)
