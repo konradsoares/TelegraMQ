@@ -43,22 +43,22 @@ In modern cloud architecture, applications are decoupled into smaller, independe
 Message queues can significantly simplify coding of decoupled applications, while improving performance, reliability and scalability. You can also combine message queues with Pub/Sub messaging in a fanout design pattern.
  
  
-<li>Better Performance
+<li><b>Better Performance</b>
 
 Message queues enable asynchronous communication, which means that the endpoints that are producing and consuming messages interact with the queue, not each other. Producers can add requests to the queue without waiting for them to be processed. Consumers process messages only when they are available. No component in the system is ever stalled waiting for another, optimizing data flow.
 
 
-<li>Increased Reliability
+<li><b>Increased Reliability</b>
 
 Queues make your data persistent, and reduce the errors that happen when different parts of your system go offline. By separating different components with message queues, you create more fault tolerance. If one part of the system is ever unreachable, the other can still continue to interact with the queue. The queue itself can also be mirrored for even more availability.
 
 
-<li>Granular Scalability
+<li><b>Granular Scalability</b>
 
 Message queues make it possible to scale precisely where you need to. When workloads peak, multiple instances of your application can all add requests to the queue without risk of collision. As your queues get longer with these incoming requests, you can distribute the workload across a fleet of consumers. Producers, consumers and the queue itself can all grow and shrink on demand.
  
 
-<li>Simplifed Decoupling
+<li><b>Simplifed Decoupling</b>
 
 Message queues remove dependencies between components and significantly simplify the coding of decoupled applications. Software components aren’t weighed down with communications code and can instead be designed to perform a discrete business function.
 
