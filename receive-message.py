@@ -2,10 +2,10 @@
 import pika
 import requests
 
-credentials = pika.PlainCredentials('rabit_admin', '123456789')
+credentials = pika.PlainCredentials('guest', 'guest')
 # Note: sending a short heartbeat to prove that heartbeats are still
 # sent even though the worker simulates long-running work
-parameters =  pika.ConnectionParameters('78.111.84.97', credentials=credentials, heartbeat=5)
+parameters =  pika.ConnectionParameters('localhost', credentials=credentials, heartbeat=5)
 connection = pika.BlockingConnection(parameters)
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
