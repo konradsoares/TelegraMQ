@@ -70,5 +70,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
 In this POC we gonna follow the steps bellow:
  
 - Create 2 Ubuntu 20.4 VPcs
-- Install Python and Pika in the Server 1 (Sender)
-- Install Python, Pika and RabbitMQ in the Server 2 (We gonna use this server as a Broker and Consumer as well, sending our message to a Telegram Bot)
+- Install Python and Pika in the Server 1 (Sender), then create our application for sending message to the queue.
+- Install Python, Pika and RabbitMQ in the Server 2, then create our receiver for queue the message then send to the telegram bot.
+ 
+In the fisrt step we gonna use this server as a Broker and Consumer, sending our message locally via localhost to our Telegram Bot.
+In the second step, we gonna allow our guest user for sending our message remotely to our Telegram Bot.
