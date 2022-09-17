@@ -16,7 +16,9 @@ channel.queue_declare(queue='hello')
 
 def callback(ch, method, properties, body):
     print(" [x] Received %r" % body)
-    requests.post('https://api.telegram.org/bot<YOUR TELEGRAM BOT TOKEN>/sendMessage?chat_id=<your_telegram_chatID>&text='+body)
+    ## If you get the characther b (byte) in your message you can use the line bellow to convert repr to string.
+    ##print(" [x] Received " + body.decode('utf-8'))
+    #requests.post('https://api.telegram.org/bot<YOUR TELEGRAM BOT TOKEN>/sendMessage?chat_id=<your_telegram_chatID>&text='+body.decode('utf-8'))
 channel.basic_consume(callback,
                       queue='hello',
                       no_ack=True)
