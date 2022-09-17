@@ -79,4 +79,6 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  Let's start updating our Ubuntu OS.
  
  root@MQBroker:~# sudo apt update && sudo apt upgrade
+ ![image](https://user-images.githubusercontent.com/52551615/190864431-7eb35e95-47f1-4a49-9dd8-f1eaa16cf945.png)
+
  
