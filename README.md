@@ -133,7 +133,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  pika.exceptions.ProbableAuthenticationError: (403, 'ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.')
  ![image](https://user-images.githubusercontent.com/52551615/190872626-b6ddef0a-7b30-4d89-9385-c2b9041946e7.png)
 
- This is because we don't have the RabbitMQ config file with the Access Control configuration in the MQBroker server, permiting guest user to connect outside the loopback.
+ This is because we don't have the RabbitMQ config file with the Access Control configuration in the MQBroker server, permiting guest user to connect outside the loopback (localhost).
  
  ![image](https://user-images.githubusercontent.com/52551615/190872872-0a9fbe76-7fff-4572-92a0-5628cc7102ae.png)
 
