@@ -170,6 +170,7 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  Edit receive-message.py and uncomment line 22 and replace the token with your Bot Token and chatid with your personal chatID.
  
  PS: Our body here is byte so you need to convert to str.
+ body.decode('utf-8')
  
  ![image](https://user-images.githubusercontent.com/52551615/190874167-3efad84a-8d50-4e56-b4e2-a2ab06a9a03f.png)
 
