@@ -169,6 +169,8 @@ Now that you know more about Message Queues let's do a simple example using Pyth
  
  Edit receive-message.py and uncomment line 22 and replace the token with your Bot Token and chatid with your personal chatID.
  
+ PS: Our body here is byte so you need to convert to str.
+ 
  ![image](https://user-images.githubusercontent.com/52551615/190874167-3efad84a-8d50-4e56-b4e2-a2ab06a9a03f.png)
 
  Save receive-message.py, start your Telegram Bot to receive messages, run receive-message.py to start consuming and routing the messages in the queue.
